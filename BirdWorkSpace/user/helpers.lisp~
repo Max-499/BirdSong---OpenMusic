@@ -1,0 +1,4 @@
+(defun add-or-subtract (a b)
+  (if (zerop (random 2))           
+      (+ a b)                 
+      (- a b)))                   
